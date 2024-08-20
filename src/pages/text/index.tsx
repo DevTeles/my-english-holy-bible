@@ -51,14 +51,11 @@ const Text: React.FC = () => {
 
   return (
       <Container>
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between'}}>
+        <View style={{ flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>        
           <TouchableOpacity onPress={() => navigation.goBack()} style={{ padding: 10 }}>
             <Icon name="arrow-left" size={26} color="#f2f2f2" />
           </TouchableOpacity>
-          <Title>{currentbook}</Title>
-          <TouchableOpacity style={{ padding: 10 }}>
-            <Icon name="arrow-left" size={26} color="#555963" />
-          </TouchableOpacity>
+          <Title>{currentbook}</Title>          
         </View>   
 
         <ViewTitle>
@@ -68,7 +65,9 @@ const Text: React.FC = () => {
                   <Icon name="chevron-left" size={26} color="#f2f2f2" />
               </TouchableOpacity>
             ) : (
-              <Icon name="chevron-left" size={26} color="#555963" />
+              <TouchableOpacity style={{ padding: 10 }}>
+                  <Icon name="chevron-left" size={26} color="#c2c2c2" />
+              </TouchableOpacity>
             )
           }
           <TextTitle>{currentChapter}</TextTitle>
@@ -79,7 +78,9 @@ const Text: React.FC = () => {
                 <Icon name="chevron-right" size={26} color="#f2f2f2" />
               </TouchableOpacity>
             ) : (
-              <Icon name="chevron-left" size={26} color="#555963" />
+              <TouchableOpacity style={{ padding: 10 }}>
+                <Icon name="chevron-right" size={26} color="#c2c2c2" />
+              </TouchableOpacity>
             )
           }
         </ViewTitle>

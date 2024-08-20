@@ -36,27 +36,28 @@ const BookChapter: React.FC = () => {
 
   return (
     <Container>
-
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginVertical: 16 }}>
+      <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginVertical: 16 }}>
         <TouchableOpacity onPress={() => navigation.goBack()} style={{ padding: 10 }}>
-          <Icon name="arrow-left" size={26} color="#000" />         
+          <Icon name="arrow-left" size={26} color="#555963" />         
         </TouchableOpacity>
         <TextTitle>{currentbook}</TextTitle>
-        <TouchableOpacity disabled={true} style={{ padding: 10, }}>
-          <Icon name="arrow-left" size={26} color="#f2f2f2" />         
+        <TouchableOpacity style={{ padding: 10, }}>
+          <Icon name="user" size={26} color="#555963" />         
         </TouchableOpacity>
       </View>      
 
-      <FlatList
+      <FlatList        
         numColumns={5}
         data={arrayTotalChapter}
         keyExtractor={(item) => item.toString()}
         renderItem={(item) => (
+          <View style={{ margin: 1 }}>
            <Chapter>
              <BtnTouchableOpacity onPress={() => handleOpenBookChapter(item.item)}>
                 <Text>{item.item}</Text>
              </BtnTouchableOpacity>
            </Chapter>
+          </View>
         )}
       />
 

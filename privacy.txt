@@ -1,0 +1,39 @@
+Política de Privacidade
+Última atualização: 19 de agosto de 2024
+
+1. Introdução
+Esta Política de Privacidade explica como o aplicativo English Bible (o "App") coleta, usa e protege as informações dos usuários ("você" ou "usuários"). O App é projetado exclusivamente para fornecer conteúdo da Bíblia em inglês, acessando dados através de uma API pública.
+
+2. Coleta de Informações
+2.1 Informações Pessoais
+Nosso App não coleta, armazena ou processa informações pessoais identificáveis. Não exigimos que você forneça qualquer dado pessoal para utilizar o App.
+
+2.2 Informações Coletadas Automaticamente
+Podemos coletar automaticamente certas informações relacionadas ao seu dispositivo e ao uso do App, como:
+
+Dados de Uso: Informações sobre como você interage com o App, como o número de vezes que o App é utilizado, as páginas acessadas e o tempo gasto em cada sessão.
+Dados de Dispositivo: Informações sobre o dispositivo que você está utilizando, como modelo do dispositivo, sistema operacional, versão do App, e identificadores de dispositivo anônimos.
+Essas informações são coletadas apenas para melhorar o desempenho do App e garantir uma melhor experiência ao usuário. Todas as informações coletadas automaticamente são anônimas e não podem ser usadas para identificar você pessoalmente.
+
+3. Uso das Informações
+As informações coletadas são usadas exclusivamente para os seguintes fins:
+
+Melhoria do Serviço: Analisar o comportamento de uso do App para melhorar sua funcionalidade e desempenho.
+Manutenção e Suporte: Identificar e corrigir possíveis problemas técnicos.
+4. Consulta à API Pública
+O App utiliza uma API pública para acessar e fornecer os dados bíblicos em inglês. Não temos controle sobre a política de privacidade da API pública e recomendamos que você consulte a política de privacidade do serviço de API para entender como eles tratam os dados.
+
+5. Compartilhamento de Informações
+Como o App não coleta informações pessoais, não há dados pessoais que possam ser compartilhados com terceiros. Informações anônimas de uso podem ser compartilhadas com provedores de serviços para análise e melhoria do App.
+
+6. Segurança
+Adotamos medidas de segurança razoáveis para proteger o App e as informações anônimas que possam ser coletadas. No entanto, lembre-se de que nenhum método de transmissão pela internet ou de armazenamento eletrônico é totalmente seguro.
+
+7. Links para Sites de Terceiros
+O App pode conter links para outros sites que não são operados por nós. Se você clicar em um link de terceiros, será direcionado para o site desse terceiro. Recomendamos que você revise a política de privacidade de cada site que visitar, pois não temos controle sobre esses sites.
+
+8. Alterações nesta Política de Privacidade
+Podemos atualizar nossa Política de Privacidade periodicamente. Recomendamos que você revise esta página regularmente para se manter informado sobre qualquer mudança. As alterações entram em vigor imediatamente após serem publicadas nesta página.
+
+9. Contato
+Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco em rafaeltelesvital@gmail.com

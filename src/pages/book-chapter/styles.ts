@@ -2,9 +2,6 @@ import styled from 'styled-components/native';
 
 export const Container = styled.SafeAreaView`
   flex: 1;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
   background-color: #f2f2f2;
 `;
 
@@ -13,7 +10,7 @@ export const TextTitle = styled.Text`
   font-weight: bold;
   text-align: center;
   color: black;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   color: #555963;
 `;
 

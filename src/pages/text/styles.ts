@@ -4,6 +4,7 @@ import styled from 'styled-components/native';
 const { height } = Dimensions.get('window');
 
 export const Container = styled.SafeAreaView`
+    flex: 1;
     background: #555963;
     padding-bottom: 100px;
 `;
@@ -15,7 +16,7 @@ export const Title = styled.Text`
   color: #f2f2f2;
 `;
 
-export const TextTitle = styled.Text`
+export const TextTitle = styled.Text`  
   font-size: 36px;
   font-weight: bold;
   text-align: center;
@@ -33,8 +34,9 @@ export const TextRN = styled.Text`
 
 export const ViewTitle = styled.View`
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   justify-items: center;
+  align-items: center;
   margin: 12px;
 `;
 
